@@ -28,14 +28,15 @@ class IndividualQuestions extends Component {
       <div>
         <h2> Question number: {index + 1} </h2>
         <p> {question.question} </p>
-        {arrayScrambler(question.answers).map((i, index) => (
+
+        {arrayScrambler(answers).map((i, index) => (
           <div key={index}>
             <button onClick={() => this.handleClick(i.isCorrect)}>
               {i.answer}
             </button>
-            <button onClick={this.handleNextQuestion}>Next Question</button>
           </div>
         ))}
+        <button onClick={this.handleNextQuestion}>Next Question</button>
       </div>
     );
   }
