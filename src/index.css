@@ -2,3 +2,15 @@ div.custom-container {
   margin-left: 20% !important;
   margin-right: 20% !important;
 }
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.disabled {
+  pointer-events: none;
+}

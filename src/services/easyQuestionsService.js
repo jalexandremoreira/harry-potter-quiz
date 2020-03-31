@@ -5,18 +5,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Breaking up the Beatles."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Defeating Darth Vader."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Defeating Lord Voldemort."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Beating Hilary Clinton in the primaries."
       }
     ]
@@ -27,18 +31,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "John and Yoko."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Charles and Diana."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Brad and Angelina."
       },
       {
         isCorrect: true,
+        answerId: "a00d",
         answer: "James and Lily."
       }
     ]
@@ -49,18 +57,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Bobbytorts School of Plumbing."
       },
       {
         isCorrect: true,
+        answerId: "a00b",
         answer: "Hogwarts School of Witchcraft and Wizardry."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Crumplemubs School of Arts and Crafts."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Pompiloos School of Gardening and Pruning."
       }
     ]
@@ -71,18 +83,22 @@ const questions = [
     answers: [
       {
         isCorrect: true,
+        answerId: "a00a",
         answer: "James."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Paul."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Ringo."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "George."
       }
     ]
@@ -93,18 +109,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "22."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "16."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "11."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "13."
       }
     ]
@@ -115,18 +135,22 @@ const questions = [
     answers: [
       {
         isCorrect: true,
+        answerId: "a00a",
         answer: "Godric’s Hollow."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Tatooine."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Liverpool."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Westeros."
       }
     ]
@@ -137,18 +161,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Blitzball."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Hearthstone."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Quidditch."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Archery."
       }
     ]
@@ -159,18 +187,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Harry’s Chauffeur."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "The local innkeep."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Harry’s bandmate."
       },
       {
         isCorrect: true,
+        answerId: "a00d",
         answer: "The groundskeeper at Harry’s school."
       }
     ]
@@ -181,18 +213,22 @@ const questions = [
     answers: [
       {
         isCorrect: true,
+        answerId: "a00a",
         answer: "Ron and Hermione."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Luke and Leia."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Sansa and Robb."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Rick and Morty."
       }
     ]
@@ -203,18 +239,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Divination."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Web Design."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Defense Against the Dark Arts."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Macaroni Art."
       }
     ]
@@ -225,18 +265,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Professor Utonium."
       },
       {
         isCorrect: true,
+        answerId: "a00b",
         answer: "Professor Snape."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Professor Oak."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Professor Chaos."
       }
     ]
@@ -247,18 +291,22 @@ const questions = [
     answers: [
       {
         isCorrect: true,
+        answerId: "a00a",
         answer: "Scotland."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Sweden."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "USA."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "China."
       }
     ]
@@ -269,18 +317,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Straightforwardalley."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Verticalley."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Horizontalley."
       },
       {
         isCorrect: true,
+        answerId: "a00d",
         answer: "Diagonalley."
       }
     ]
@@ -291,18 +343,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Dogsfeed."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Brogsleed."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Hogsmead."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Frogsteeth."
       }
     ]
@@ -313,18 +369,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "A direwolf."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "A bat."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "An owl."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "A racoon."
       }
     ]
@@ -335,18 +395,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "They drive."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "They walk."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "They take the train."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "They fly. On airplanes."
       }
     ]
@@ -357,18 +421,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "John."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Black Forest."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Forbidden Forest."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Ugly Forest."
       }
     ]
@@ -380,18 +448,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "...the New Hope."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "…the Last Crusade."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "…the Philosopher’s Stone."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "…the Corona Virus."
       }
     ]
@@ -403,18 +475,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "Donkeys."
       },
       {
         isCorrect: false,
+        answerId: "a00b",
         answer: "Giraffes."
       },
       {
         isCorrect: true,
+        answerId: "a00c",
         answer: "Snakes."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Ants."
       }
     ]
@@ -425,18 +501,22 @@ const questions = [
     answers: [
       {
         isCorrect: false,
+        answerId: "a00a",
         answer: "J.R.R. Tolkien."
       },
       {
         isCorrect: true,
+        answerId: "a00b",
         answer: "J.K. Rowling."
       },
       {
         isCorrect: false,
+        answerId: "a00c",
         answer: "Dr. Dre."
       },
       {
         isCorrect: false,
+        answerId: "a00d",
         answer: "Louisa May Alcott."
       }
     ]
@@ -444,5 +524,5 @@ const questions = [
 ];
 
 export const getQuestions = () => {
-  return questions;
+  return JSON.parse(JSON.stringify(questions));
 };

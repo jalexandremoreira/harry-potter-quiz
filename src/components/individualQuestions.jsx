@@ -3,39 +3,54 @@ import { arrayScrambler } from "./arrayScrambler";
 
 class IndividualQuestions extends Component {
   state = {
-    index: 0,
-    question: {}
+    selectedId: undefined
   };
 
-  componentDidMount() {
-    console.log(this.props.questions);
-    this.setState({ question: this.props.questions[this.state.index] });
-  }
+  componentDidMount() {}
 
-  handleClick(isCorrect) {
-    if (isCorrect === true) console.log("true!");
-    else console.log("false!");
-  }
+  // handleClick(isCorrect) {
+  //   if (isCorrect === true) console.log("true!");
+  //   else console.log("false!");
+  // }
 
-  handleNextQuestion = () => {
-    const index = this.state.index + 1;
-    this.setState({ index });
-  };
+  // handleNextQuestion = () => {
+  //   const index = this.state.index + 1;
+  //   this.setState({ index });
+  // };
+
+  handleClick(id) {
+    debugger;
+    this.setState({ selectedId: id });
+  }
+  handleNextQuestion() {
+    this.props.handleNextQuestion();
+    this.setState({ selectedId: undefined });
+  }
 
   render() {
-    return (
+    return !this.props.question ? (
+      <div></div>
+    ) : (
       <div>
-        <h2> Question number: </h2>
-        {/* <p> {question.question} </p>
-
-        {arrayScrambler(answers).map((i, index) => (
+        <span>{this.props.question.question}</span>
+        {this.props.question.answers.map((answer, index) => (
           <div key={index}>
-            <button onClick={() => this.handleClick(i.isCorrect)}>
-              {i.answer}
-            </button>
+            <div
+              className={`${
+                answer.answerId === this.state.selectedId ? "green" : ""
+              } ${this.state.selectedId ? "disabled" : ""}`}
+              onClick={() => this.handleClick(answer.answerId)}
+            >
+              {answer.answer}
+            </div>
           </div>
         ))}
-        <button onClick={this.handleNextQuestion}>Next Question</button> */}
+        <div
+          className={` ${this.state.selectedId ? "" : "disabled"}`}
+          onClick={() => this.handleNextQuestion()}
+        >
+          Next Question
+        </div>
       </div>
     );
   }
