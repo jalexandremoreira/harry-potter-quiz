@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <React.Fragment>
-      <h1 style={{ textAlign: "center" }}>Harry Potter Quizz</h1>
+      <h1 style={{ textAlign: "center" }}>Harry Potter Quiz</h1>
       <DisplayQuestions />
     </React.Fragment>
   );

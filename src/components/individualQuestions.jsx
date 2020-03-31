@@ -23,11 +23,10 @@ class IndividualQuestions extends Component {
   };
 
   render() {
-    const { question, index } = this.state;
     return (
       <div>
-        <h2> Question number: {index + 1} </h2>
-        <p> {question.question} </p>
+        <h2> Question number: </h2>
+        {/* <p> {question.question} </p>
 
         {arrayScrambler(answers).map((i, index) => (
           <div key={index}>
@@ -36,7 +35,7 @@ class IndividualQuestions extends Component {
             </button>
           </div>
         ))}
-        <button onClick={this.handleNextQuestion}>Next Question</button>
+        <button onClick={this.handleNextQuestion}>Next Question</button> */}
       </div>
     );
   }
