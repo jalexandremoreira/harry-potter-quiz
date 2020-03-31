@@ -7,6 +7,10 @@ class DisplayQuestions extends Component {
   state = {
     questions: [],
     question: undefined,
+    tally: {
+      wrong: 0,
+      correct: 0
+    },
     index: 0
   };
 
@@ -14,17 +18,11 @@ class DisplayQuestions extends Component {
     const questions = arrayScrambler(getQuestions());
     this.setState({
       questions,
-      question: questions[this.state.index],
-      answers: questions[this.state.index].answers
+      question: questions[this.state.index]
     });
   }
 
-  handleClick(i) {
-    this.setState({ selectedId: i });
-    i ? console.log("true!") : console.log("false!");
-  }
-
-  handleNextQuestion = () => {
+  onNextQuestion = () => {
     const index = this.state.index + 1;
     this.setState({
       index,
@@ -32,54 +30,27 @@ class DisplayQuestions extends Component {
     });
   };
 
+  onViewResults = () => {
+    console.log(this.state.tally);
+  };
+
+  updateTally = tally => {
+    this.setState({ tally });
+  };
+
   render() {
-    const { question, answers, index, selectedId } = this.state;
-
-    const styleForCorrectAnswer = {
-      backgroundColor: "green"
-    };
-
-    const styleForWrongAnswer = {
-      backgroundColor: "red"
-    };
-
-    const styleForDefaultAnswer = {
-      backgroundColor: "white"
-    };
+    const { question, index, tally } = this.state;
 
     return (
       <div className="custom-container">
         <IndividualQuestions
-          question={this.state.question}
-          handleNextQuestion={this.handleNextQuestion}
-          // answers={this.state.answers}
+          question={question}
+          index={index}
+          tally={tally}
+          handleNextQuestion={this.onNextQuestion}
+          onViewResults={this.onViewResults}
+          updateTally={this.updateTally}
         />
-        <div>
-          {/* <h2> Question number: {index + 1} </h2>
-          <p> {question.question} </p>
-
-          {arrayScrambler(answers).map((i, index) => (
-            <div key={index}>
-              <button
-                style={
-                  i.id === selectedId && i.isCorrect
-                    ? styleForCorrectAnswer
-                    : i.id === selectedId && !i.isCorrect
-                    ? styleForWrongAnswer
-                    : styleForDefaultAnswer
-                }
-                onClick={() => this.handleClick(i.id)}
-              >
-                {i.answer}
-              </button>
-            </div>
-          ))}
-          <div>
-            {(index <= 18 && (
-              <button onClick={this.handleNextQuestion}>Next Question</button>
-            )) || <button>View Results</button>}
-          </div> */}
-        </div>
       </div>
     );
   }
