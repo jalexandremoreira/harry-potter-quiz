@@ -1,6 +1,6 @@
 const questions = [
   {
-    id: "f0001",
+    id: "e0001",
     question: "What is Harry Potter known for?",
     answers: [
       {
@@ -26,7 +26,7 @@ const questions = [
     ]
   },
   {
-    id: "f0002",
+    id: "e0002",
     question: "What are Harry Potter’s parents called?",
     answers: [
       {
@@ -52,7 +52,7 @@ const questions = [
     ]
   },
   {
-    id: "f0003",
+    id: "e0003",
     question: "What school does Harry Potter attend?",
     answers: [
       {
@@ -78,7 +78,7 @@ const questions = [
     ]
   },
   {
-    id: "f0004",
+    id: "e0004",
     question: "What is Harry Potter’s middle name?",
     answers: [
       {
@@ -104,7 +104,7 @@ const questions = [
     ]
   },
   {
-    id: "f0005",
+    id: "e0005",
     question: "At what age did Harry Potter find out he was special?",
     answers: [
       {
@@ -130,7 +130,7 @@ const questions = [
     ]
   },
   {
-    id: "f0006",
+    id: "e0006",
     question: "What is Harry Potter’s Place of birth?",
     answers: [
       {
@@ -156,7 +156,7 @@ const questions = [
     ]
   },
   {
-    id: "f0007",
+    id: "e0007",
     question: "What is Harry Potter’s favourite sport?",
     answers: [
       {
@@ -182,7 +182,7 @@ const questions = [
     ]
   },
   {
-    id: "f0008",
+    id: "e0008",
     question: "Who is Rubeus Hagrid?",
     answers: [
       {
@@ -208,7 +208,7 @@ const questions = [
     ]
   },
   {
-    id: "f0009",
+    id: "e0009",
     question: "Who are Harry Potter’s best friends?",
     answers: [
       {
@@ -234,7 +234,7 @@ const questions = [
     ]
   },
   {
-    id: "f0010",
+    id: "e0010",
     question: "What is Harry Potter’s best subject at school?",
     answers: [
       {
@@ -260,7 +260,7 @@ const questions = [
     ]
   },
   {
-    id: "f0011",
+    id: "e0011",
     question: "Who is Harry Potter’s most hated professor?",
     answers: [
       {
@@ -286,7 +286,7 @@ const questions = [
     ]
   },
   {
-    id: "f0012",
+    id: "e0012",
     question: "Where is Harry Potter’s school located?",
     answers: [
       {
@@ -312,7 +312,7 @@ const questions = [
     ]
   },
   {
-    id: "f0013",
+    id: "e0013",
     question: "Where does Harry Potter buy his school stuff?",
     answers: [
       {
@@ -338,7 +338,7 @@ const questions = [
     ]
   },
   {
-    id: "f0014",
+    id: "e0014",
     question: "What’s the name of the village close to Harry Potter’s school?",
     answers: [
       {
@@ -364,7 +364,7 @@ const questions = [
     ]
   },
   {
-    id: "f0015",
+    id: "e0015",
     question: "What animal does Harry Potter have as a pet?",
     answers: [
       {
@@ -390,7 +390,7 @@ const questions = [
     ]
   },
   {
-    id: "f0016",
+    id: "e0016",
     question: "How does Harry Potter and his schoolmates travel to the school?",
     answers: [
       {
@@ -416,7 +416,7 @@ const questions = [
     ]
   },
   {
-    id: "f0017",
+    id: "e0017",
     question: "What’s the name of the forest near Harry Potter’s school?",
     answers: [
       {
@@ -442,7 +442,7 @@ const questions = [
     ]
   },
   {
-    id: "f0018",
+    id: "e0018",
     question:
       "What is the name of the first Harry Potter book? Harry Potter and...",
     answers: [
@@ -469,7 +469,7 @@ const questions = [
     ]
   },
   {
-    id: "f0019",
+    id: "e0019",
     question:
       "What type of animal does the Dark Lord have a magical connection with?",
     answers: [
@@ -496,7 +496,7 @@ const questions = [
     ]
   },
   {
-    id: "f0020",
+    id: "e0020",
     question: "Who wrote the Harry Potter books?",
     answers: [
       {
@@ -523,6 +523,6 @@ const questions = [
   }
 ];
 
-export const getQuestions = () => {
+export const getEasyQuestions = () => {
   return JSON.parse(JSON.stringify(questions));
 };

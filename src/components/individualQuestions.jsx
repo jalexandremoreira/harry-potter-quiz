@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { arrayScrambler } from "./arrayScrambler";
+// import { arrayScrambler } from "./arrayScrambler";
 
 class IndividualQuestions extends Component {
   state = {
@@ -48,7 +48,7 @@ class IndividualQuestions extends Component {
     ) : (
       <div>
         <h3>
-          Question number {index + 1} {question.question}
+          Question number {index + 1}:<p>{question.question}</p>
         </h3>
         {question.answers.map((answer, index) => (
           <div key={index}>
@@ -73,7 +73,7 @@ class IndividualQuestions extends Component {
           </div>
         )) || (
           <div
-            className="button default"
+            className={`button ${selectedId ? "default" : "disabled"}`}
             onClick={() => this.handleViewResults()}
           >
             View Results

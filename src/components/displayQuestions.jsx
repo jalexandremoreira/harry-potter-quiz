@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import { getQuestions } from "./../services/easyQuestionsService";
-import { arrayScrambler } from "./arrayScrambler";
+
 import IndividualQuestions from "./individualQuestions";
+
+import { getEasyQuestions } from "./../services/easyQuestionsService";
+import { arrayScrambler } from "./arrayScrambler";
+import { combinedQuestions } from "./combinedQuestions";
 
 class DisplayQuestions extends Component {
   state = {
@@ -15,7 +18,7 @@ class DisplayQuestions extends Component {
   };
 
   componentDidMount() {
-    const questions = arrayScrambler(getQuestions());
+    const questions = arrayScrambler(combinedQuestions());
     this.setState({
       questions,
       question: questions[this.state.index]
@@ -31,7 +34,10 @@ class DisplayQuestions extends Component {
   };
 
   onViewResults = () => {
-    console.log(this.state.tally);
+    alert(
+      `correct: ${this.state.tally.correct}
+      wrong: ${this.state.tally.wrong}`
+    );
   };
 
   updateTally = tally => {
