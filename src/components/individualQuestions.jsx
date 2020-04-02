@@ -1,22 +1,11 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 // import { arrayScrambler } from "./arrayScrambler";
 
 class IndividualQuestions extends Component {
   state = {
     selectedId: undefined
   };
-
-  componentDidMount() {}
-
-  // handleClick(isCorrect) {
-  //   if (isCorrect === true) console.log("true!");
-  //   else console.log("false!");
-  // }
-
-  // handleNextQuestion = () => {
-  //   const index = this.state.index + 1;
-  //   this.setState({ index });
-  // };
 
   handleClick(answer, id) {
     this.updateTally(answer);
@@ -51,17 +40,24 @@ class IndividualQuestions extends Component {
           Question number {index + 1}:<p>{question.question}</p>
         </h3>
         {question.answers.map((answer, index) => (
-          <div key={index}>
-            <div
-              className={`button ${
-                answer.id === selectedId && answer.isCorrect ? "green" : ""
-              } ${answer.id === selectedId && !answer.isCorrect ? "red" : ""} ${
-                selectedId && answer.id !== selectedId ? "disabled" : ""
-              } ${!selectedId ? "default" : ""}`}
-              onClick={() => this.handleClick(answer, answer.id)}
-            >
-              {answer.answer}
-            </div>
+          <div
+            key={index}
+            className={`button ${!selectedId ? "default" : ""} ${
+              answer.id === selectedId && answer.isCorrect ? "green" : ""
+            } ${answer.id === selectedId && !answer.isCorrect ? "red" : ""} 
+              ${
+                selectedId && answer.id !== selectedId && answer.isCorrect
+                  ? "green"
+                  : ""
+              }
+              ${
+                selectedId && answer.id !== selectedId && !answer.isCorrect
+                  ? "disabled"
+                  : ""
+              } `}
+            onClick={() => this.handleClick(answer, answer.id)}
+          >
+            {answer.answer}
           </div>
         ))}
         {(index <= 18 && (
@@ -72,12 +68,11 @@ class IndividualQuestions extends Component {
             Next Question
           </div>
         )) || (
-          <div
-            className={`button ${selectedId ? "default" : "disabled"}`}
-            onClick={() => this.handleViewResults()}
-          >
-            View Results
-          </div>
+          <Link to="/showResults">
+            <div className={`button ${selectedId ? "default" : "disabled"}`}>
+              View Results
+            </div>
+          </Link>
         )}
       </div>
     );

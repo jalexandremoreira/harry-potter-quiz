@@ -18,7 +18,7 @@ div.custom-container {
 }
 
 .button:hover {
-  cursor: pointer;
+  cursor: pointer !important;
   border: solid rgb(194, 194, 194) 2px;
   color: rgb(105, 105, 105);
 }

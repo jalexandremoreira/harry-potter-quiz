@@ -8,7 +8,12 @@ export function combinedQuestions() {
   const middle = [...scramble(getMiddleQuestions())];
   const hard = [...scramble(getHardQuestions())];
 
-  const combined = [...pop(easy, 8), ...pop(middle, 6), ...pop(hard, 6)];
+  const combined = [
+    ...easy.slice(0, 8),
+    ...middle.slice(0, 6),
+    ...hard.slice(0, 6)
+  ];
+
   return combined;
 }
 
@@ -18,16 +23,4 @@ const scramble = array => {
     i.answers = [...arrayScrambler(i.answers)];
   });
   return newArray;
-};
-
-const pop = (array, number) => {
-  const poppedArray = [...array];
-
-  for (let i = 0; i < number; i++) {
-    poppedArray.pop();
-  }
-
-  //slice
-
-  return poppedArray;
 };
