@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import IndividualQuestions from "./individualQuestions";
 import { combinedQuestions } from "./combinedQuestions";
+import { Link } from "react-router-dom";
 
 class DisplayQuestions extends Component {
   state = {
@@ -79,6 +80,9 @@ class DisplayQuestions extends Component {
         <div className="button default" onClick={this.setGame}>
           Reset
         </div>
+        <Link to="/" className={`button default`}>
+          Go back home
+        </Link>
       </div>
     );
   }

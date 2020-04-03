@@ -1,25 +1,27 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import { arrayScrambler } from "./arrayScrambler";
+
+import MapAnswers from "./mapAnswers";
+import NextQuestionButton from "./nextQuestionButton";
 
 class IndividualQuestions extends Component {
   state = {
     selectedId: undefined
   };
 
-  handleClick(answer, id) {
+  handleClick = (answer, id) => {
     this.updateTally(answer);
     this.setState({ selectedId: id });
-  }
+  };
 
-  handleNextQuestion() {
+  handleNextQuestion = () => {
     this.props.handleNextQuestion();
     this.setState({ selectedId: undefined });
-  }
+  };
 
-  handleViewResults() {
+  handleViewResults = () => {
     this.props.onViewResults();
-  }
+  };
 
   updateTally = answer => {
     const tally = { ...this.props.tally };
@@ -39,41 +41,17 @@ class IndividualQuestions extends Component {
         <h3>
           Question number {index + 1}:<p>{question.question}</p>
         </h3>
-        {question.answers.map((answer, index) => (
-          <div
-            key={index}
-            className={`button ${!selectedId ? "default" : ""} ${
-              answer.id === selectedId && answer.isCorrect ? "green" : ""
-            } ${answer.id === selectedId && !answer.isCorrect ? "red" : ""} 
-              ${
-                selectedId && answer.id !== selectedId && answer.isCorrect
-                  ? "green"
-                  : ""
-              }
-              ${
-                selectedId && answer.id !== selectedId && !answer.isCorrect
-                  ? "disabled"
-                  : ""
-              } `}
-            onClick={() => this.handleClick(answer, answer.id)}
-          >
-            {answer.answer}
-          </div>
-        ))}
-        {(index <= 18 && (
-          <div
-            className={`button ${selectedId ? "default" : "disabled"}`}
-            onClick={() => this.handleNextQuestion()}
-          >
-            Next Question
-          </div>
-        )) || (
-          <Link to="/showResults">
-            <div className={`button ${selectedId ? "default" : "disabled"}`}>
-              View Results
-            </div>
-          </Link>
-        )}
+
+        <MapAnswers
+          question={question}
+          selectedId={selectedId}
+          handleClick={this.handleClick}
+        />
+        <NextQuestionButton
+          index={index}
+          selectedId={selectedId}
+          handleNextQuestion={this.handleNextQuestion}
+        />
       </div>
     );
   }
