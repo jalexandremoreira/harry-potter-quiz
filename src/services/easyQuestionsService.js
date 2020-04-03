@@ -564,12 +564,252 @@ const questions = [
       {
         isCorrect: false,
         id: "a00c",
-        answer: "1."
+        answer: "Ice King."
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "6."
+        answer: "Draco Malfoy."
+      }
+    ]
+  },
+  {
+    id: "e0023",
+    question: "At what age do students graduate from Harry Potter’s school?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "18."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "60."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "22."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "17."
+      }
+    ]
+  },
+  {
+    id: "e0024",
+    question:
+      "What is the most interesting feature in the Great Hall at Harry Potter’s school?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "The floor is lava."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Gravity is inverted, students walk on the ceiling."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Food is served."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer:
+          "The ceiling is enchanted to appear missing, revealing the sky above."
+      }
+    ]
+  },
+  {
+    id: "e0025",
+    question:
+      "What dangerous means of transportation did Harry and Ron use to travel to school in ‘The Chamber of Secrets’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "They flew on a dragon."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "They swam."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "They drove a Tesla in ‘ludicrous mode’."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "They flew there on a flying car."
+      }
+    ]
+  },
+  {
+    id: "e0026",
+    question:
+      "What terrible fate did Harry and Hermione save Sirius Black from in ‘The Prisoner of Azkaban’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Financial ruin."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "A dementor’s bad cooking."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "A dementor’s hug."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "A dementor’s kiss."
+      }
+    ]
+  },
+  {
+    id: "e0027",
+    question: "Where do wizards store their money?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Under their beds."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Under the sea."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "In a magical, secret compartment in their wallets."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "At Gringotts Bank."
+      }
+    ]
+  },
+  {
+    id: "e0028",
+    question: "What do wizards call non-magic people?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Nomags."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Normies."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Muffins."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Muggles."
+      }
+    ]
+  },
+  {
+    id: "e0029",
+    question: "Which of the following is a class at Harry Potter’s school?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Scuba Diving."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Bouldering."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Witch Hunting."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Divination."
+      }
+    ]
+  },
+  {
+    id: "e0030",
+    question:
+      "What is the correct designation for a female member of the wizarding community?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Wizardess."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Wizard Lady."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "WizardX."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Witch."
+      }
+    ]
+  },
+  {
+    id: "e0031",
+    question:
+      "What is the name of the secret group that Harry, Ron and Hermione formed in ‘The Order of the Phoenix’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Daring and Audacious."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Dumb and Arrogant."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Drunk and Annoying."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Dumbledore’s Army."
       }
     ]
   }

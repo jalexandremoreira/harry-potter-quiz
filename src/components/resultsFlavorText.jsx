@@ -9,7 +9,7 @@ class ResultsFlavor extends Component {
   }
 
   calculateFlavor = () => {
-    if (this.props.correct >= 0 && this.props.wrong > 0) {
+    if (this.props.correct >= 0 && this.props.wrong >= 0) {
       const percentage = (this.props.correct * 100) / 20;
       console.log(percentage);
       this.setState(

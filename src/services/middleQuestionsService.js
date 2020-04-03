@@ -264,6 +264,32 @@ const questions = [
         answer: "The second floor girl’s bathroom."
       }
     ]
+  },
+  {
+    id: "m0011",
+    question: "How is the Great Hall at Hogwarts illuminated?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "By a multitude of House Elves holding candles."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "By LED bulbs."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Sunlight."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Floating candles."
+      }
+    ]
   }
 ];
 

@@ -23,7 +23,7 @@ class ShowResults extends Component {
     const { correct, wrong } = this.state.tally;
     return (
       <React.Fragment>
-        {correct >= 0 && wrong > 0 && (
+        {correct >= 0 && wrong >= 0 && (
           <ResultsPercentage correct={correct} wrong={wrong} />
         )}
         <ResultsFlavor correct={correct} wrong={wrong} />
