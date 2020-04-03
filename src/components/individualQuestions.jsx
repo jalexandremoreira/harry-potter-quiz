@@ -30,6 +30,11 @@ class IndividualQuestions extends Component {
     this.props.updateTally(tally);
   };
 
+  setGame = () => {
+    this.setState({ selectedId: undefined });
+    this.props.setGame();
+  };
+
   render() {
     const { question, index } = this.props;
     const { selectedId } = this.state;
@@ -52,6 +57,9 @@ class IndividualQuestions extends Component {
           selectedId={selectedId}
           handleNextQuestion={this.handleNextQuestion}
         />
+        <div className="button default" onClick={this.setGame}>
+          Reset
+        </div>
       </div>
     );
   }

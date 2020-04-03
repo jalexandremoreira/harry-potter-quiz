@@ -14,16 +14,6 @@ class DisplayQuestions extends Component {
     index: -1
   };
 
-  // componentWillMount() {
-  //   const tally = localStorage.getItem("tally");
-
-  //   if (tally) {
-  //     this.setState({
-  //       tally: JSON.parse(tally)
-  //     });
-  //   }
-  // }
-
   componentDidMount() {
     this.setGame();
   }
@@ -48,13 +38,6 @@ class DisplayQuestions extends Component {
     });
   };
 
-  // onViewResults = () => {
-  //   alert(
-  //     `correct: ${this.state.tally.correct}
-  //     wrong: ${this.state.tally.wrong}`
-  //   );
-  // };
-
   updateTally = tally => {
     this.setState({ tally });
   };
@@ -76,10 +59,8 @@ class DisplayQuestions extends Component {
           handleNextQuestion={this.onNextQuestion}
           onViewResults={this.onViewResults}
           updateTally={this.updateTally}
+          setGame={this.setGame}
         />
-        <div className="button default" onClick={this.setGame}>
-          Reset
-        </div>
         <Link to="/" className={`button default`}>
           Go back home
         </Link>

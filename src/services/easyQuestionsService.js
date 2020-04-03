@@ -520,6 +520,58 @@ const questions = [
         answer: "Louisa May Alcott."
       }
     ]
+  },
+  {
+    id: "e0021",
+    question: "How many siblings does Ron Weasly have?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "3."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Over 9000."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "1."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "6."
+      }
+    ]
+  },
+  {
+    id: "e0022",
+    question: "Who is Harry Potter’s rival at school?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Rubeus Hagrid."
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Vincent Crabbe."
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "1."
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "6."
+      }
+    ]
   }
 ];
 
