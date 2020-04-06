@@ -6,7 +6,7 @@ import NextQuestionButton from "./nextQuestionButton";
 
 class IndividualQuestions extends Component {
   state = {
-    selectedId: undefined
+    selectedId: undefined,
   };
 
   handleClick = (answer, id) => {
@@ -23,7 +23,7 @@ class IndividualQuestions extends Component {
     this.props.onViewResults();
   };
 
-  updateTally = answer => {
+  updateTally = (answer) => {
     const tally = { ...this.props.tally };
 
     answer.isCorrect ? (tally.correct += 1) : (tally.wrong += 1);
@@ -43,9 +43,9 @@ class IndividualQuestions extends Component {
       <div></div>
     ) : (
       <div>
-        <h3>
-          Question number {index + 1}:<p>{question.question}</p>
-        </h3>
+        <h3 id="quiz-page-question-tracker">Question #{index + 1} of 20:</h3>
+
+        <p id="quiz-page-question">{question.question}</p>
 
         <MapAnswers
           question={question}
@@ -57,9 +57,17 @@ class IndividualQuestions extends Component {
           selectedId={selectedId}
           handleNextQuestion={this.handleNextQuestion}
         />
-        <div className="button default" onClick={this.setGame}>
+
+        <div
+          className="button default small"
+          onClick={this.setGame}
+          style={{ marginLeft: "60px" }}
+        >
           Reset
         </div>
+        <Link to="/">
+          <div className="button default small">Go back home</div>
+        </Link>
       </div>
     );
   }

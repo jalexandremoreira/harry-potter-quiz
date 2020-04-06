@@ -6,11 +6,12 @@ class MapAnswers extends Component {
     return (
       <React.Fragment>
         {question.answers.map((answer, index) => (
-          <div
-            key={index}
-            className={`button ${!selectedId ? "default" : ""} ${
-              answer.id === selectedId && answer.isCorrect ? "green" : ""
-            } ${answer.id === selectedId && !answer.isCorrect ? "red" : ""} 
+          <span id="answers-span" key={index}>
+            <i className="fas fa-bolt" style={{ marginRight: "-10px" }}></i>
+            <div
+              className={`button ${!selectedId ? "default" : ""} ${
+                answer.id === selectedId && answer.isCorrect ? "green" : ""
+              } ${answer.id === selectedId && !answer.isCorrect ? "red" : ""} 
                   ${
                     selectedId && answer.id !== selectedId && answer.isCorrect
                       ? "green"
@@ -21,10 +22,12 @@ class MapAnswers extends Component {
                       ? "disabled"
                       : ""
                   } `}
-            onClick={() => this.props.handleClick(answer, answer.id)}
-          >
-            {answer.answer}
-          </div>
+              onClick={() => this.props.handleClick(answer, answer.id)}
+            >
+              {answer.answer}
+            </div>
+            <i className="fas fa-bolt" style={{ marginLeft: "2em" }}></i>
+          </span>
         ))}
       </React.Fragment>
     );

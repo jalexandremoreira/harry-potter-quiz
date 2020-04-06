@@ -9,9 +9,9 @@ class DisplayQuestions extends Component {
     questions: [],
     tally: {
       correct: 0,
-      wrong: 0
+      wrong: 0,
     },
-    index: -1
+    index: -1,
   };
 
   componentDidMount() {
@@ -25,8 +25,8 @@ class DisplayQuestions extends Component {
       index: 0,
       tally: {
         wrong: 0,
-        correct: 0
-      }
+        correct: 0,
+      },
     });
   };
 
@@ -34,11 +34,11 @@ class DisplayQuestions extends Component {
     const index = this.state.index + 1;
     this.setState({
       index,
-      question: this.state.questions[index]
+      question: this.state.questions[index],
     });
   };
 
-  updateTally = tally => {
+  updateTally = (tally) => {
     this.setState({ tally });
   };
 
@@ -61,9 +61,6 @@ class DisplayQuestions extends Component {
           updateTally={this.updateTally}
           setGame={this.setGame}
         />
-        <Link to="/" className={`button default`}>
-          Go back home
-        </Link>
       </div>
     );
   }

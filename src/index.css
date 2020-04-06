@@ -1,5 +1,8 @@
+/* global */
+
 body {
-  background-color: rgb(228, 113, 93) !important;
+  background-color: #781b2b !important;
+  color: #f5a549;
 }
 
 div.custom-container {
@@ -7,62 +10,138 @@ div.custom-container {
   margin-right: 30% !important;
 }
 
+/* landing-page */
+
+h1#landing-page-h1 {
+  margin-top: 6.8em;
+  margin-bottom: 1.7em;
+  font-size: 3.6em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+@media screen and (max-width: 450px) {
+  h1#landing-page-h1 {
+    margin-top: 3.8em;
+    margin-bottom: 1.8em;
+    font-size: 3em;
+  }
+}
+
+p#landing-page-link {
+  font-size: 1.3em;
+  text-align: center;
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+a {
+  color: #f5a549;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+a:hover {
+  color: #fdd551;
+  text-decoration: none;
+}
+
+/* quiz page */
+
+h3#quiz-page-question-tracker {
+  margin-top: 4.5em;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.9em;
+  font-weight: 600;
+}
+
+p#quiz-page-question {
+  font-family: "Cinzel Decorative", cursive;
+  margin-top: 1.2em;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
 .button {
-  color: rgb(54, 54, 54);
-  width: 300px;
+  color: #631623;
+  font-size: 1.1em;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 500;
+  width: 400px;
+  padding: 2px 5px 2px 5px;
+  /* padding-bottom: 2px; */
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
-  /* border: solid black 2px; */
+  margin-left: 2em;
   border-radius: 15px;
+  transition: 350ms;
+  display: inline-block;
 }
 
 .button:hover {
   cursor: pointer !important;
-  /* border: solid rgb(194, 194, 194) 2px; */
-  color: rgb(105, 105, 105);
 }
 
 .red {
-  background-color: red;
-  color: white;
+  background-color: rgb(216, 52, 52);
+  color: #fdd551;
   pointer-events: none;
 }
 
 .green {
-  background-color: green;
-  color: white;
+  background-color: #3c9c28;
+  color: #fdd551;
   pointer-events: none;
 }
 
 .default {
-  background-color: rgb(255, 224, 83);
+  background-color: #f5a549;
 }
 
 .default:hover {
-  background-color: rgb(231, 204, 81);
+  background-color: #f7c94a;
 }
 
 .disabled {
-  color: rgb(185, 185, 185);
-  background-color: grey;
+  color: rgb(192, 192, 192);
+  background-color: rgb(133, 126, 126);
   pointer-events: none;
-  /* border: solid rgb(75, 75, 75) 2px; */
 }
 
-a.button.default {
-  color: rgb(54, 54, 54);
-  width: 300px !important;
+span#answers-span {
+  display: inline-block;
+}
+
+span#answers-span:hover .fas.fa-bolt {
+  display: inline-block;
+}
+.fas.fa-bolt {
+  display: none;
+}
+
+.button.default.small {
+  margin-top: 3.5em;
+  width: 160px;
+}
+
+/* a.button.default {
+  color: #631623;
+  font-size: 1.1em;
+  font-family: "Baloo Thambi 2", cursive;
+  width: 350px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
-  /* border: solid black 2px; */
   border-radius: 15px;
+  transition: 350ms;
 }
 
 a.button.default:hover {
   cursor: pointer !important;
-  /* border: solid rgb(194, 194, 194) 2px; */
   color: rgb(105, 105, 105);
   text-decoration: none;
-}
+} */
