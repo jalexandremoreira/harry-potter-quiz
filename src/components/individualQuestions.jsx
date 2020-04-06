@@ -58,16 +58,18 @@ class IndividualQuestions extends Component {
           handleNextQuestion={this.handleNextQuestion}
         />
 
-        <div
-          className="button default small"
-          onClick={this.setGame}
-          style={{ marginLeft: "60px" }}
-        >
-          Reset
+        <div>
+          <div
+            className="button default small"
+            onClick={this.setGame}
+            style={{ marginLeft: "60px" }}
+          >
+            Reset
+          </div>
+          <Link to="/">
+            <div className="button default small">Go back home</div>
+          </Link>
         </div>
-        <Link to="/">
-          <div className="button default small">Go back home</div>
-        </Link>
       </div>
     );
   }

@@ -11,11 +11,7 @@ class ResultsFlavor extends Component {
   calculateFlavor = () => {
     if (this.props.correct >= 0 && this.props.wrong >= 0) {
       const percentage = (this.props.correct * 100) / 20;
-      console.log(percentage);
-      this.setState(
-        { flavor: getFlavorText(percentage) },
-        console.log(getFlavorText(percentage))
-      );
+      this.setState({ flavor: getFlavorText(percentage) });
     } else {
       this.setState({ flavor: "You have to play frist!" });
     }
@@ -25,7 +21,7 @@ class ResultsFlavor extends Component {
     const { flavor } = this.state;
 
     return (
-      <div>
+      <div className="show-results-flavor">
         <p>{flavor}</p>
       </div>
     );

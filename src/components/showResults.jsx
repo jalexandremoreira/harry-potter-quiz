@@ -7,8 +7,8 @@ class ShowResults extends Component {
   state = {
     tally: {
       correct: 0,
-      wrong: 0
-    }
+      wrong: 0,
+    },
   };
 
   componentWillMount() {
@@ -22,18 +22,20 @@ class ShowResults extends Component {
   render() {
     const { correct, wrong } = this.state.tally;
     return (
-      <React.Fragment>
+      <div className="custom-container">
+        <ResultsFlavor correct={correct} wrong={wrong} />
         {correct >= 0 && wrong >= 0 && (
           <ResultsPercentage correct={correct} wrong={wrong} />
         )}
-        <ResultsFlavor correct={correct} wrong={wrong} />
-        <Link to="/" className={`button default`}>
-          Go back home
-        </Link>
-        <Link to="/quiz" className={`button default`}>
-          New Quiz
-        </Link>
-      </React.Fragment>
+        <div style={{ textAlign: "center" }}>
+          <Link to="/quiz">
+            <div className="button default small">New Quiz</div>
+          </Link>
+          <Link to="/">
+            <div className="button default small">Go back home</div>
+          </Link>
+        </div>
+      </div>
     );
   }
 }
