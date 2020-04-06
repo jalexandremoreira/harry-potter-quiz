@@ -58,7 +58,7 @@ class IndividualQuestions extends Component {
           handleNextQuestion={this.handleNextQuestion}
         />
 
-        <div>
+        <div style={{ display: "inline-block" }}>
           <div
             className="button default small"
             onClick={this.setGame}
