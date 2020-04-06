@@ -6,24 +6,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Breaking up the Beatles."
+        answer: "Breaking up the Beatles.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Defeating Darth Vader."
+        answer: "Defeating Darth Vader.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Defeating Lord Voldemort."
+        answer: "Defeating Lord Voldemort.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Beating Hilary Clinton in the primaries."
-      }
-    ]
+        answer: "Beating Hilary Clinton in the primaries.",
+      },
+    ],
   },
   {
     id: "e0002",
@@ -32,24 +32,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "John and Yoko."
+        answer: "John and Yoko.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Charles and Diana."
+        answer: "Charles and Diana.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Brad and Angelina."
+        answer: "Brad and Angelina.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "James and Lily."
-      }
-    ]
+        answer: "James and Lily.",
+      },
+    ],
   },
   {
     id: "e0003",
@@ -58,24 +58,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Bobbytorts School of Plumbing."
+        answer: "Bobbytorts School of Plumbing.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Hogwarts School of Witchcraft and Wizardry."
+        answer: "Hogwarts School of Witchcraft and Wizardry.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Crumplemubs School of Arts and Crafts."
+        answer: "Crumplemubs School of Arts and Crafts.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Pompiloos School of Gardening and Pruning."
-      }
-    ]
+        answer: "Pompiloos School of Gardening and Pruning.",
+      },
+    ],
   },
   {
     id: "e0004",
@@ -84,24 +84,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "James."
+        answer: "James.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Paul."
+        answer: "Paul.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Ringo."
+        answer: "Ringo.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "George."
-      }
-    ]
+        answer: "George.",
+      },
+    ],
   },
   {
     id: "e0005",
@@ -110,24 +110,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "22."
+        answer: "22.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "16."
+        answer: "16.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "11."
+        answer: "11.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "13."
-      }
-    ]
+        answer: "13.",
+      },
+    ],
   },
   {
     id: "e0006",
@@ -136,24 +136,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "Godric’s Hollow."
+        answer: "Godric’s Hollow.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Tatooine."
+        answer: "Tatooine.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Liverpool."
+        answer: "Liverpool.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Westeros."
-      }
-    ]
+        answer: "Westeros.",
+      },
+    ],
   },
   {
     id: "e0007",
@@ -162,24 +162,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Blitzball."
+        answer: "Blitzball.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Hearthstone."
+        answer: "Hearthstone.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Quidditch."
+        answer: "Quidditch.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Archery."
-      }
-    ]
+        answer: "Archery.",
+      },
+    ],
   },
   {
     id: "e0008",
@@ -188,24 +188,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Harry’s Chauffeur."
+        answer: "Harry’s Chauffeur.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "The local innkeep."
+        answer: "The local innkeep.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Harry’s bandmate."
+        answer: "Harry’s bandmate.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "The groundskeeper at Harry’s school."
-      }
-    ]
+        answer: "The groundskeeper at Harry’s school.",
+      },
+    ],
   },
   {
     id: "e0009",
@@ -214,24 +214,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "Ron and Hermione."
+        answer: "Ron and Hermione.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Luke and Leia."
+        answer: "Luke and Leia.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Sansa and Robb."
+        answer: "Sansa and Robb.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Rick and Morty."
-      }
-    ]
+        answer: "Rick and Morty.",
+      },
+    ],
   },
   {
     id: "e0010",
@@ -240,24 +240,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Divination."
+        answer: "Divination.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Web Design."
+        answer: "Web Design.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Defense Against the Dark Arts."
+        answer: "Defense Against the Dark Arts.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Macaroni Art."
-      }
-    ]
+        answer: "Macaroni Art.",
+      },
+    ],
   },
   {
     id: "e0011",
@@ -266,24 +266,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Professor Utonium."
+        answer: "Professor Utonium.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Professor Snape."
+        answer: "Professor Snape.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Professor Oak."
+        answer: "Professor Oak.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Professor Chaos."
-      }
-    ]
+        answer: "Professor Chaos.",
+      },
+    ],
   },
   {
     id: "e0012",
@@ -292,24 +292,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "Scotland."
+        answer: "Scotland.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Sweden."
+        answer: "Sweden.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "USA."
+        answer: "USA.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "China."
-      }
-    ]
+        answer: "China.",
+      },
+    ],
   },
   {
     id: "e0013",
@@ -318,24 +318,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Straightforwardalley."
+        answer: "Straightforwardalley.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Verticalley."
+        answer: "Verticalley.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Horizontalley."
+        answer: "Horizontalley.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Diagonalley."
-      }
-    ]
+        answer: "Diagonalley.",
+      },
+    ],
   },
   {
     id: "e0014",
@@ -344,24 +344,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Dogsfeed."
+        answer: "Dogsfeed.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Brogsleed."
+        answer: "Brogsleed.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Hogsmead."
+        answer: "Hogsmead.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Frogsteeth."
-      }
-    ]
+        answer: "Frogsteeth.",
+      },
+    ],
   },
   {
     id: "e0015",
@@ -370,24 +370,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A direwolf."
+        answer: "A direwolf.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "A bat."
+        answer: "A bat.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "An owl."
+        answer: "An owl.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "A racoon."
-      }
-    ]
+        answer: "A racoon.",
+      },
+    ],
   },
   {
     id: "e0016",
@@ -396,24 +396,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "They drive."
+        answer: "They drive.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "They walk."
+        answer: "They walk.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "They take the train."
+        answer: "They take the train.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "They fly. On airplanes."
-      }
-    ]
+        answer: "They fly. On airplanes.",
+      },
+    ],
   },
   {
     id: "e0017",
@@ -422,24 +422,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "John."
+        answer: "John.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Black Forest."
+        answer: "Black Forest.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Forbidden Forest."
+        answer: "Forbidden Forest.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Ugly Forest."
-      }
-    ]
+        answer: "Ugly Forest.",
+      },
+    ],
   },
   {
     id: "e0018",
@@ -449,24 +449,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "...the New Hope."
+        answer: "...the New Hope.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "…the Last Crusade."
+        answer: "…the Last Crusade.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "…the Philosopher’s Stone."
+        answer: "…the Philosopher’s Stone.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "…the Corona Virus."
-      }
-    ]
+        answer: "…the Corona Virus.",
+      },
+    ],
   },
   {
     id: "e0019",
@@ -476,24 +476,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Donkeys."
+        answer: "Donkeys.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Giraffes."
+        answer: "Giraffes.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Snakes."
+        answer: "Snakes.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Ants."
-      }
-    ]
+        answer: "Ants.",
+      },
+    ],
   },
   {
     id: "e0020",
@@ -502,24 +502,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "J.R.R. Tolkien."
+        answer: "J.R.R. Tolkien.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "J.K. Rowling."
+        answer: "J.K. Rowling.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Dr. Dre."
+        answer: "Dr. Dre.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Louisa May Alcott."
-      }
-    ]
+        answer: "Louisa May Alcott.",
+      },
+    ],
   },
   {
     id: "e0021",
@@ -528,24 +528,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "3."
+        answer: "3.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Over 9000."
+        answer: "Over 9000.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "1."
+        answer: "1.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "6."
-      }
-    ]
+        answer: "6.",
+      },
+    ],
   },
   {
     id: "e0022",
@@ -554,24 +554,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Rubeus Hagrid."
+        answer: "Rubeus Hagrid.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Vincent Crabbe."
+        answer: "Vincent Crabbe.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Ice King."
+        answer: "Ice King.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Draco Malfoy."
-      }
-    ]
+        answer: "Draco Malfoy.",
+      },
+    ],
   },
   {
     id: "e0023",
@@ -580,24 +580,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "18."
+        answer: "18.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "60."
+        answer: "60.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "22."
+        answer: "22.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "17."
-      }
-    ]
+        answer: "17.",
+      },
+    ],
   },
   {
     id: "e0024",
@@ -607,25 +607,25 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "The floor is lava."
+        answer: "The floor is lava.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Gravity is inverted, students walk on the ceiling."
+        answer: "Gravity is inverted, students walk on the ceiling.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Food is served."
+        answer: "Food is served.",
       },
       {
         isCorrect: true,
         id: "a00d",
         answer:
-          "The ceiling is enchanted to appear missing, revealing the sky above."
-      }
-    ]
+          "The ceiling is enchanted to appear missing, revealing the sky above.",
+      },
+    ],
   },
   {
     id: "e0025",
@@ -635,24 +635,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "They flew on a dragon."
+        answer: "They flew on a dragon.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "They swam."
+        answer: "They swam.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "They drove a Tesla in ‘ludicrous mode’."
+        answer: "They drove a Tesla in ‘ludicrous mode’.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "They flew there on a flying car."
-      }
-    ]
+        answer: "They flew there on a flying car.",
+      },
+    ],
   },
   {
     id: "e0026",
@@ -662,24 +662,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Financial ruin."
+        answer: "Financial ruin.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "A dementor’s bad cooking."
+        answer: "A dementor’s bad cooking.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "A dementor’s hug."
+        answer: "A dementor’s hug.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "A dementor’s kiss."
-      }
-    ]
+        answer: "A dementor’s kiss.",
+      },
+    ],
   },
   {
     id: "e0027",
@@ -688,24 +688,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Under their beds."
+        answer: "Under their beds.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Under the sea."
+        answer: "Under the sea.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "In a magical, secret compartment in their wallets."
+        answer: "In a magical, secret compartment in their wallets.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "At Gringotts Bank."
-      }
-    ]
+        answer: "At Gringotts Bank.",
+      },
+    ],
   },
   {
     id: "e0028",
@@ -714,24 +714,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Nomags."
+        answer: "Nomags.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Normies."
+        answer: "Normies.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Muffins."
+        answer: "Muffins.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Muggles."
-      }
-    ]
+        answer: "Muggles.",
+      },
+    ],
   },
   {
     id: "e0029",
@@ -740,24 +740,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Scuba Diving."
+        answer: "Scuba Diving.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Bouldering."
+        answer: "Bouldering.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Witch Hunting."
+        answer: "Witch Hunting.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Divination."
-      }
-    ]
+        answer: "Divination.",
+      },
+    ],
   },
   {
     id: "e0030",
@@ -767,24 +767,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Wizardess."
+        answer: "Wizardess.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Wizard Lady."
+        answer: "Wizard Lady.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "WizardX."
+        answer: "WizardX.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Witch."
-      }
-    ]
+        answer: "Witch.",
+      },
+    ],
   },
   {
     id: "e0031",
@@ -794,25 +794,131 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Daring and Audacious."
+        answer: "Daring and Audacious.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Dumb and Arrogant."
+        answer: "Dumb and Arrogant.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Drunk and Annoying."
+        answer: "Drunk and Annoying.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Dumbledore’s Army."
-      }
-    ]
-  }
+        answer: "Dumbledore’s Army.",
+      },
+    ],
+  },
+  {
+    id: "e0032",
+    question:
+      "What did Harry Potter do to his uncle’s sister when she repeatedly insulted his parents?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "He threw a knife at her.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer:
+          "He hacked her computer and changed all the icons to the poop emoji.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "He made her hair magically grow to 2 meters.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "He made her magically inflate and float like a balloon.",
+      },
+    ],
+  },
+  {
+    id: "e0033",
+    question: "What unusual building houses Harry Potter’s school?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "An abbey.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "An old shopping mall.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "An abandoned cinema theater.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "A castle.",
+      },
+    ],
+  },
+  {
+    id: "e0034",
+    question: "What’s the full name of Harry Potter’s school’s headmaster?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Sir Albus Dumbledore.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Obi-Wan Kenobi.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Gandalf the Grey.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Albus Percival Wulfric Brian Dumbledore.",
+      },
+    ],
+  },
+  {
+    id: "e0035",
+    question: "What shape is the scar on Harry Potter’s forehead?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "A magic wand.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "A bong.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Bongos.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Lightning.",
+      },
+    ],
+  },
 ];
 
 export const getEasyQuestions = () => {

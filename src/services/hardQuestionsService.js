@@ -6,24 +6,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Radiohead."
+        answer: "Radiohead.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Weird Sisters."
+        answer: "Weird Sisters.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Twisted Sisters."
+        answer: "Twisted Sisters.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "The Cure."
-      }
-    ]
+        answer: "The Cure.",
+      },
+    ],
   },
   {
     id: "h0002",
@@ -32,24 +32,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A cat."
+        answer: "A cat.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Half-Kneazle."
+        answer: "Half-Kneazle.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "A dog."
+        answer: "A dog.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Three turtles."
-      }
-    ]
+        answer: "Three turtles.",
+      },
+    ],
   },
   {
     id: "h0003",
@@ -58,24 +58,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "James Bond."
+        answer: "James Bond.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Peter Pettigrew."
+        answer: "Peter Pettigrew.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Sirius Black."
+        answer: "Sirius Black.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Aberforth Dumbledore."
-      }
-    ]
+        answer: "Aberforth Dumbledore.",
+      },
+    ],
   },
   {
     id: "h0004",
@@ -85,50 +85,50 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Potions."
+        answer: "Potions.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Defense Against the Dark Arts."
+        answer: "Defense Against the Dark Arts.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Divination."
+        answer: "Divination.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Muggle Studies."
-      }
-    ]
+        answer: "Muggle Studies.",
+      },
+    ],
   },
   {
     id: "h0005",
     question: "What was Remus Lupin’s most well guarded secret?",
     answers: [
       {
-        isCorrect: true,
+        isCorrect: false,
         id: "a00a",
-        answer: "He was secretly a werewolf."
+        answer: "He was secretly a werewolf.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "He actually really hated Harry."
+        answer: "He actually really hated Harry.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "He was serving the Dark Lord the whole time."
+        answer: "He was serving the Dark Lord the whole time.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "His relationship with Nymphadora Tonks."
-      }
-    ]
+        answer: "His relationship with Nymphadora Tonks.",
+      },
+    ],
   },
   {
     id: "h0006",
@@ -138,24 +138,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Legilimency."
+        answer: "Legilimency.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Dark Magic."
+        answer: "Dark Magic.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Occlumency."
+        answer: "Occlumency.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Necromancy."
-      }
-    ]
+        answer: "Necromancy.",
+      },
+    ],
   },
   {
     id: "h0007",
@@ -164,24 +164,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A Harry Potter quiz."
+        answer: "A Harry Potter quiz.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Fighting a dragon."
+        answer: "Fighting a dragon.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "A maze."
+        answer: "A maze.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "A broom-mounted race."
-      }
-    ]
+        answer: "A broom-mounted race.",
+      },
+    ],
   },
   {
     id: "h0008",
@@ -190,24 +190,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "On the tallest tower."
+        answer: "On the tallest tower.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Behind a statue of a one-legged witch."
+        answer: "Behind a statue of a one-legged witch.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "At the end of the dining hall."
+        answer: "At the end of the dining hall.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Behind a painting of a fruit bowl."
-      }
-    ]
+        answer: "Behind a painting of a fruit bowl.",
+      },
+    ],
   },
   {
     id: "h0009",
@@ -217,24 +217,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Bowtruckles."
+        answer: "Bowtruckles.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Invisible horses."
+        answer: "Invisible horses.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Hidden ropes."
+        answer: "Hidden ropes.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Thestrals."
-      }
-    ]
+        answer: "Thestrals.",
+      },
+    ],
   },
   {
     id: "h0010",
@@ -244,25 +244,160 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Holly Wand."
+        answer: "Holly Wand.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Deathly Wand."
+        answer: "Deathly Wand.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Elder Wand."
+        answer: "Elder Wand.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Prime Wand."
-      }
-    ]
-  }
+        answer: "Prime Wand.",
+      },
+    ],
+  },
+  {
+    id: "h0011",
+    question:
+      "What horrific spell did Harry Potter learn about after he saw it scribbled on the Half Blood Prince’s potions manual, with the description ‘for enemies’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Wingardium Leviosa.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Avada Kedavra.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Lumos.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Sectumsempra.",
+      },
+    ],
+  },
+  {
+    id: "h0012",
+    question:
+      "What horrific spell did Harry Potter learn about after he saw it scribbled on the Half Blood Prince’s potions manual, with the description ‘for enemies’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Wingardium Leviosa.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Avada Kedavra.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Lumos.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Sectumsempra.",
+      },
+    ],
+  },
+  {
+    id: "h0013",
+    question: "How old were Harry Potter’s parents when they died?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "31.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "35.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "27.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "21.",
+      },
+    ],
+  },
+  {
+    id: "h0014",
+    question:
+      "Why is it that no one can hold the position of Defense Against the Dark Arts teacher for more than a year?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Professor Snape put a curse on the position.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer:
+          "Professor Dumbledore always fires all the teachers after a year.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "All teachers end up trying to kill Harry.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Lord Voldemort put a curse on the position.",
+      },
+    ],
+  },
+  {
+    id: "h0015",
+    question:
+      "Which unlikely character reveals itself to be Dumbledore’s brother?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Argus Filch.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "One of the Dursleys’s neighbours.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "The Innkeep at the Leaky Cauldron.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "The Innkeep at the Hog’s Head.",
+      },
+    ],
+  },
 ];
 
 export const getHardQuestions = () => {

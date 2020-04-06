@@ -6,24 +6,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Thom Yorke."
+        answer: "Thom Yorke.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "Sirius Black."
+        answer: "Sirius Black.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Phill Selway."
+        answer: "Phill Selway.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Colin Greenwood."
-      }
-    ]
+        answer: "Colin Greenwood.",
+      },
+    ],
   },
   {
     id: "m0002",
@@ -33,24 +33,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A Rancor."
+        answer: "A Rancor.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "A Chimera."
+        answer: "A Chimera.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "A Basilisk."
+        answer: "A Basilisk.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "A Behemoth."
-      }
-    ]
+        answer: "A Behemoth.",
+      },
+    ],
   },
   {
     id: "m0003",
@@ -59,24 +59,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "Luna Lovegood."
+        answer: "Luna Lovegood.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Cho Chang."
+        answer: "Cho Chang.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Greta Gerwig."
+        answer: "Greta Gerwig.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Padma Patil."
-      }
-    ]
+        answer: "Padma Patil.",
+      },
+    ],
   },
   {
     id: "m0004",
@@ -86,24 +86,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A love potion."
+        answer: "A love potion.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Liquid Luck."
+        answer: "Liquid Luck.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "Polyjuice Potion."
+        answer: "Polyjuice Potion.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Moon Shaped Potion."
-      }
-    ]
+        answer: "Moon Shaped Potion.",
+      },
+    ],
   },
   {
     id: "m0005",
@@ -113,24 +113,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "Privet Drive."
+        answer: "Privet Drive.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Abbey Road."
+        answer: "Abbey Road.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Adelaide Road."
+        answer: "Adelaide Road.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Grimmauld Place."
-      }
-    ]
+        answer: "Grimmauld Place.",
+      },
+    ],
   },
   {
     id: "m0006",
@@ -140,24 +140,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "A whale."
+        answer: "A whale.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "An unicorn."
+        answer: "An unicorn.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "A hippogriff."
+        answer: "A hippogriff.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "A giant spider."
-      }
-    ]
+        answer: "A giant spider.",
+      },
+    ],
   },
   {
     id: "m0007",
@@ -166,24 +166,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "Tom Riddle."
+        answer: "Tom Riddle.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Tom Selleck."
+        answer: "Tom Selleck.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Tom Hanks."
+        answer: "Tom Hanks.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "Tom Morello."
-      }
-    ]
+        answer: "Tom Morello.",
+      },
+    ],
   },
   {
     id: "m0008",
@@ -192,24 +192,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "The Four Trolls."
+        answer: "The Four Trolls.",
       },
       {
         isCorrect: true,
         id: "a00b",
-        answer: "The Three Broomsticks."
+        answer: "The Three Broomsticks.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "The Two Goblins."
+        answer: "The Two Goblins.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "The Prancing Pony."
-      }
-    ]
+        answer: "The Prancing Pony.",
+      },
+    ],
   },
   {
     id: "m0009",
@@ -219,24 +219,24 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "They played fetch with it."
+        answer: "They played fetch with it.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "They gave it a bone."
+        answer: "They gave it a bone.",
       },
       {
         isCorrect: true,
         id: "a00c",
-        answer: "They played music."
+        answer: "They played music.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "They Shouted ‘BAD DOG’."
-      }
-    ]
+        answer: "They Shouted ‘BAD DOG’.",
+      },
+    ],
   },
   {
     id: "m0010",
@@ -246,24 +246,24 @@ const questions = [
       {
         isCorrect: true,
         id: "a00a",
-        answer: "The room of requirement."
+        answer: "The room of requirement.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "Professor Umbrige’s classroom."
+        answer: "Professor Umbrige’s classroom.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "A local Starbucks."
+        answer: "A local Starbucks.",
       },
       {
         isCorrect: false,
         id: "a00d",
-        answer: "The second floor girl’s bathroom."
-      }
-    ]
+        answer: "The second floor girl’s bathroom.",
+      },
+    ],
   },
   {
     id: "m0011",
@@ -272,25 +272,131 @@ const questions = [
       {
         isCorrect: false,
         id: "a00a",
-        answer: "By a multitude of House Elves holding candles."
+        answer: "By a multitude of House Elves holding candles.",
       },
       {
         isCorrect: false,
         id: "a00b",
-        answer: "By LED bulbs."
+        answer: "By LED bulbs.",
       },
       {
         isCorrect: false,
         id: "a00c",
-        answer: "Sunlight."
+        answer: "Sunlight.",
       },
       {
         isCorrect: true,
         id: "a00d",
-        answer: "Floating candles."
-      }
-    ]
-  }
+        answer: "Floating candles.",
+      },
+    ],
+  },
+  {
+    id: "m0012",
+    question:
+      "What surprisingly aggressive tree do Harry and Ron crash into in ‘The Chamber of Secrets’?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "An oak tree.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "A strong, big pine tree.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "An old apple tree.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "A Whomping Willow.",
+      },
+    ],
+  },
+  {
+    id: "m0013",
+    question: "Where is the Slytherin common room located?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "In the Dark Forest.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Next door to the Library.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "In the local cemetery, through a dilapidated crypt.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "In the dungeons.",
+      },
+    ],
+  },
+  {
+    id: "m0014",
+    question: "What class does Professor McGonagall teach?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Divination.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Defense Against the Dark Arts.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Arithmancy.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Transfiguration.",
+      },
+    ],
+  },
+  {
+    id: "m0015",
+    question:
+      "What is one of the best and most universal cures for several poisons?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "A complicated potion brewed for several months.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Unicorn Horn.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Mandrake root.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "A bezoar.",
+      },
+    ],
+  },
 ];
 
 export const getMiddleQuestions = () => {
