@@ -60,6 +60,7 @@ class DisplayQuestions extends Component {
           onViewResults={this.onViewResults}
           updateTally={this.updateTally}
           setGame={this.setGame}
+          {...this.props}
         />
       </div>
     );

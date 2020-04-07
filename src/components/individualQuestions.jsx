@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 import MapAnswers from "./mapAnswers";
-import NextQuestionButton from "./nextQuestionButton";
+// import NextQuestionButton from "./nextQuestionButton";
 
 class IndividualQuestions extends Component {
   state = {
     selectedId: undefined,
+    // showResults: false,
   };
 
   handleClick = (answer, id) => {
@@ -14,9 +16,14 @@ class IndividualQuestions extends Component {
     this.setState({ selectedId: id });
 
     setTimeout(() => {
-      this.props.handleNextQuestion();
-      this.setState({ selectedId: undefined });
-    }, 2000);
+      if (this.props.index <= 18) {
+        this.props.handleNextQuestion();
+        this.setState({ selectedId: undefined });
+      } else {
+        // this.setState({ showResults: true });
+        this.props.history.push("/showResults");
+      }
+    }, 1500);
   };
 
   // handleNextQuestion = () => {
@@ -63,10 +70,12 @@ class IndividualQuestions extends Component {
           handleNextQuestion={this.handleNextQuestion}
         /> */}
 
+          <div className={`loading-bar ${selectedId ? "complete" : ""}`}>
+            {selectedId && "."}
+          </div>
           <div id="quiz-bottom-buttons">
             <div
               className="button default small"
-              id="reset-button"
               onClick={this.setGame}
               // style={{ marginLeft: "60px" }}
             >
