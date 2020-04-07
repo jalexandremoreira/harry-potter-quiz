@@ -12,12 +12,17 @@ class IndividualQuestions extends Component {
   handleClick = (answer, id) => {
     this.updateTally(answer);
     this.setState({ selectedId: id });
+
+    setTimeout(() => {
+      this.props.handleNextQuestion();
+      this.setState({ selectedId: undefined });
+    }, 2000);
   };
 
-  handleNextQuestion = () => {
-    this.props.handleNextQuestion();
-    this.setState({ selectedId: undefined });
-  };
+  // handleNextQuestion = () => {
+  //   this.props.handleNextQuestion();
+  //   this.setState({ selectedId: undefined });
+  // };
 
   handleViewResults = () => {
     this.props.onViewResults();
@@ -46,29 +51,31 @@ class IndividualQuestions extends Component {
         <h3 id="quiz-page-question-tracker">Question #{index + 1} of 20:</h3>
 
         <p id="quiz-page-question">{question.question}</p>
-
-        <MapAnswers
-          question={question}
-          selectedId={selectedId}
-          handleClick={this.handleClick}
-        />
-        <NextQuestionButton
+        <div className="answers-div">
+          <MapAnswers
+            question={question}
+            selectedId={selectedId}
+            handleClick={this.handleClick}
+          />
+          {/* <NextQuestionButton
           index={index}
           selectedId={selectedId}
           handleNextQuestion={this.handleNextQuestion}
-        />
+        /> */}
 
-        <div style={{ display: "inline-block" }}>
-          <div
-            className="button default small"
-            onClick={this.setGame}
-            style={{ marginLeft: "60px" }}
-          >
-            Reset
+          <div id="quiz-bottom-buttons">
+            <div
+              className="button default small"
+              id="reset-button"
+              onClick={this.setGame}
+              // style={{ marginLeft: "60px" }}
+            >
+              Reset
+            </div>
+            <Link to="/">
+              <div className="button default small">Go back home</div>
+            </Link>
           </div>
-          <Link to="/">
-            <div className="button default small">Go back home</div>
-          </Link>
         </div>
       </div>
     );

@@ -26,7 +26,7 @@ class MapAnswers extends Component {
             >
               {answer.answer}
             </div>
-            <i className="fas fa-bolt" style={{ marginLeft: "2em" }}></i>
+            {/* <i className="fas fa-bolt" style={{ marginLeft: "2em" }}></i> */}
           </span>
         ))}
       </React.Fragment>

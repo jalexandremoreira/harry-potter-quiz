@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <React.Fragment>
+    <div className="landing-page-container">
       <h1 id="landing-page-h1" style={{ textAlign: "center" }}>
         Harry Potter Quiz
       </h1>
@@ -12,13 +12,13 @@ const LandingPage = () => {
         characters.
       </p>
       <p id="landing-page-link">
-        Click{" "}
+        {/* Click{" "} */}
         <Link to="/quiz" style={{ fontStyle: "italic" }}>
-          here
+          Click here to start the quiz.
         </Link>{" "}
-        to start the quiz.
+        {/* to start the quiz. */}
       </p>
-    </React.Fragment>
+    </div>
   );
 };
 

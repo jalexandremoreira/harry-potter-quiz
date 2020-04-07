@@ -9,6 +9,7 @@ div.custom-container {
   margin-left: 30% !important;
   margin-right: 30% !important;
 }
+
 @media screen and (min-width: 1921px) {
   div.custom-container {
     margin-left: 35% !important;
@@ -16,12 +17,26 @@ div.custom-container {
   }
 }
 
+@media screen and (max-width: 450px) {
+  div.custom-container {
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+}
+
 /* landing-page */
 
+@media screen and (max-width: 800px) {
+  div.landing-page-container {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
 h1#landing-page-h1 {
-  margin-top: 6em;
-  font-size: 4em;
-  font-weight: 700;
+  margin-top: 5.5em;
+  font-size: 4.5em;
+  font-weight: 900;
   text-align: center;
   font-family: "Cinzel Decorative", cursive;
 }
@@ -33,12 +48,26 @@ h1#landing-page-h1 {
   }
 }
 
+@media screen and (max-width: 321px) {
+  h1#landing-page-h1 {
+    margin-top: 2.7em;
+    font-size: 3em;
+  }
+}
+
 p#disclaimer {
   font-size: 0.8em;
   font-weight: 100;
   text-align: center;
   font-family: "Baloo Thambi 2", cursive;
   margin-bottom: 10em;
+}
+
+@media screen and (max-width: 321px) {
+  p#disclaimer {
+    font-size: 0.7em;
+    margin-bottom: 7em;
+  }
 }
 
 p#landing-page-link {
@@ -67,12 +96,40 @@ h3#quiz-page-question-tracker {
   font-weight: 600;
 }
 
+@media screen and (max-width: 450px) {
+  h3#quiz-page-question-tracker {
+    margin-top: 2em;
+    font-size: 1.5em;
+  }
+}
+
 p#quiz-page-question {
   font-family: "Cinzel Decorative", cursive;
   margin-top: 1.2em;
   margin-bottom: 2em;
   font-size: 1.5em;
   font-weight: 600;
+}
+
+@media screen and (max-width: 450px) {
+  p#quiz-page-question {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.answers-div {
+    margin-top: 3em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  div.answers-div {
+    margin-top: 1em;
+  }
 }
 
 .button {
@@ -89,6 +146,48 @@ p#quiz-page-question {
   border-radius: 15px;
   transition: 350ms;
   display: inline-block;
+}
+
+@media screen and (max-width: 780px) {
+  .button {
+    font-size: 1em;
+    width: 400px;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 0;
+    border-radius: 15px;
+    transition: 350ms;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button {
+    font-size: 1em;
+    width: 320px;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 0;
+    border-radius: 15px;
+    transition: 350ms;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button {
+    font-size: 1em;
+    width: 250px;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    margin-top: 0.7em;
+    margin-left: 0;
+    border-radius: 15px;
+    transition: 350ms;
+    display: inline-block;
+  }
 }
 
 .button:hover {
@@ -115,6 +214,12 @@ p#quiz-page-question {
   background-color: #f7c04b;
 }
 
+@media screen and (max-width: 450px) {
+  .default:hover {
+    background-color: #f5a549;
+  }
+}
+
 .disabled {
   color: rgb(192, 192, 192);
   background-color: rgb(133, 126, 126);
@@ -131,35 +236,49 @@ span#answers-span:hover .fas.fa-bolt {
   transition: 350ms;
 }
 
+@media screen and (max-width: 768px) {
+  span#answers-span:hover .fas.fa-bolt {
+    display: none;
+  }
+}
+
 .fas.fa-bolt {
   transition: 350ms;
   display: none;
 }
 
 .button.default.small {
-  margin-top: 3.5em;
   width: 160px;
 }
 
-/* a.button.default {
-  color: #631623;
-  font-size: 1.1em;
-  font-family: "Baloo Thambi 2", cursive;
-  width: 350px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-radius: 15px;
-  transition: 350ms;
+div#quiz-bottom-buttons {
+  display: inline-block;
+  margin-top: 3.5em;
 }
 
-a.button.default:hover {
-  cursor: pointer !important;
-  color: rgb(105, 105, 105);
-  text-decoration: none;
-} */
+@media screen and (max-width: 450px) {
+  div#quiz-bottom-buttons {
+    display: block;
+    margin-top: 1.7em;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  div#quiz-bottom-buttons {
+    margin-top: 1em;
+  }
+}
+
+div#reset-button {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 450px) {
+  div#reset-button {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
 
 /* show results */
 

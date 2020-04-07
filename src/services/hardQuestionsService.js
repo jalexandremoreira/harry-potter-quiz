@@ -263,33 +263,33 @@ const questions = [
       },
     ],
   },
-  {
-    id: "h0011",
-    question:
-      "What horrific spell did Harry Potter learn about after he saw it scribbled on the Half Blood Prince’s potions manual, with the description ‘for enemies’?",
-    answers: [
-      {
-        isCorrect: false,
-        id: "a00a",
-        answer: "Wingardium Leviosa.",
-      },
-      {
-        isCorrect: false,
-        id: "a00b",
-        answer: "Avada Kedavra.",
-      },
-      {
-        isCorrect: false,
-        id: "a00c",
-        answer: "Lumos.",
-      },
-      {
-        isCorrect: true,
-        id: "a00d",
-        answer: "Sectumsempra.",
-      },
-    ],
-  },
+  // {
+  //   id: "h0011",
+  //   question:
+  //     "What horrific spell did Harry Potter learn about after he saw it scribbled on the Half Blood Prince’s potions manual, with the description ‘for enemies’?",
+  //   answers: [
+  //     {
+  //       isCorrect: false,
+  //       id: "a00a",
+  //       answer: "Wingardium Leviosa.",
+  //     },
+  //     {
+  //       isCorrect: false,
+  //       id: "a00b",
+  //       answer: "Avada Kedavra.",
+  //     },
+  //     {
+  //       isCorrect: false,
+  //       id: "a00c",
+  //       answer: "Lumos.",
+  //     },
+  //     {
+  //       isCorrect: true,
+  //       id: "a00d",
+  //       answer: "Sectumsempra.",
+  //     },
+  //   ],
+  // },
   {
     id: "h0012",
     question:

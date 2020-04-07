@@ -187,7 +187,7 @@ const questions = [
   },
   {
     id: "m0008",
-    question: "What is the name of the most frequented bar in Hogsmead?",
+    question: "What is the name of the most frequented bar in Hogsmeade?",
     answers: [
       {
         isCorrect: false,
