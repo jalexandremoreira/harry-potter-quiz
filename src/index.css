@@ -119,6 +119,7 @@ p#quiz-page-question {
 }
 
 .answers-div {
+  margin: auto;
   justify-content: center;
   text-align: center;
   width: 400px;

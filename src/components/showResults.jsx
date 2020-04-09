@@ -27,7 +27,7 @@ class ShowResults extends Component {
         {correct >= 0 && wrong >= 0 && (
           <ResultsPercentage correct={correct} wrong={wrong} />
         )}
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", margin: "auto" }}>
           <Link to="/quiz">
             <div className="button default small">New Quiz</div>
           </Link>
