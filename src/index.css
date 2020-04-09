@@ -5,22 +5,21 @@ body {
   color: #f5a549;
 }
 
-div.custom-container {
-  margin-left: 35% !important;
-  margin-right: 35% !important;
+.custom-container {
+  width: 50%;
+  margin: auto;
 }
 
 @media screen and (min-width: 1921px) {
   div.custom-container {
-    margin-left: 38% !important;
-    margin-right: 38% !important;
+    width: 40%;
   }
 }
-
 @media screen and (max-width: 450px) {
   div.custom-container {
-    margin-left: 8% !important;
-    margin-right: 8% !important;
+    width: unset;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 
@@ -119,84 +118,56 @@ p#quiz-page-question {
   }
 }
 
-div.answers-div {
+.answers-div {
+  justify-content: center;
   text-align: center;
-}
-
-@media screen and (max-width: 450px) {
-  div.answers-div {
-    margin-top: 3em;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  div.answers-div {
-    margin-top: 1em;
-  }
-}
-
-div.quiz-load-bad-div {
-  text-align: center;
-  /* margin-top: 2em; */
-}
-
-div.loading-bar {
-  width: 0;
-  /* margin: auto; */
-  height: 28px;
-  transition: width 2s;
-  margin-top: 2em;
-  /* margin-left: 2em; */
-  border-radius: 15px;
-  /* padding-left: 0;
-  padding-right: 0; */
-}
-
-@media screen and (max-width: 768px) {
-  div.loading-bar {
-    margin-top: 1em;
-  }
-}
-
-div.loading-bar.complete {
-  /* margin: auto; */
-  text-align: center;
-  transition: width 1.5s;
   width: 400px;
-  background-color: #f5a549;
-}
-
-@media screen and (max-width: 768px) {
-  div.loading-bar.complete {
-    text-align: center;
-    /* margin-left: 0; */
-    width: 400px;
-  }
 }
 
 @media screen and (max-width: 450px) {
-  div.loading-bar.complete {
-    /* margin-left: 10px; */
+  .answers-div {
     width: 320px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  div.loading-bar.complete {
-    /* margin-left: 0px; */
+    margin-top: 3em;
   }
 }
 
 @media screen and (max-width: 321px) {
-  div.loading-bar.complete {
-    /* margin-left: 7px; */
+  .answers-div {
+    margin-top: 1em;
     width: 250px;
   }
 }
 
-div.loading-bar.complete:hover {
+.quiz-load-bar-div {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.loading-bar.complete {
+  text-align: center;
+  transition: width 1.5s;
+  width: 100%;
+  background-color: #f5a549;
+}
+
+.loading-bar.complete:hover {
   background-color: #f7c04b;
+}
+
+.loading-bar {
+  width: 0;
+  height: 28px;
+  transition: width 2s;
+  margin-top: 2em;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .loading-bar {
+    margin-top: 1em;
+  }
 }
 
 .button {
@@ -204,57 +175,13 @@ div.loading-bar.complete:hover {
   font-size: 1.1em;
   font-family: "Baloo Thambi 2", cursive;
   font-weight: 500;
-  width: 400px;
+  width: 100%;
   padding: 2px 5px 2px 5px;
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
-  /* margin-left: 2em; */
   border-radius: 15px;
   transition: 350ms;
-  display: inline-block;
-}
-
-@media screen and (max-width: 780px) {
-  .button {
-    font-size: 1em;
-    width: 400px;
-    padding: 2px 5px 2px 5px;
-    text-align: center;
-    margin-top: 1em;
-    /* margin-left: 0; */
-    border-radius: 15px;
-    transition: 350ms;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .button {
-    font-size: 1em;
-    width: 320px;
-    padding: 2px 5px 2px 5px;
-    text-align: center;
-    margin-top: 1em;
-    margin-left: 0;
-    border-radius: 15px;
-    transition: 350ms;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .button {
-    font-size: 1em;
-    width: 250px;
-    padding: 2px 5px 2px 5px;
-    text-align: center;
-    margin-top: 0.7em;
-    margin-left: 0;
-    border-radius: 15px;
-    transition: 350ms;
-    display: inline-block;
-  }
 }
 
 .button:hover {
@@ -317,17 +244,18 @@ span#answers-span:hover .fas.fa-bolt {
 .button.default.small {
   width: 160px;
   margin-right: 1em;
+  margin-left: 1em;
 }
 
 div#quiz-bottom-buttons {
   display: inline-block;
   margin-top: 2em;
+  justify-content: center;
 }
 
 @media screen and (max-width: 450px) {
   div#quiz-bottom-buttons {
-    display: block;
-    margin-top: 1.7em;
+    margin-top: 1em;
   }
 }
 
