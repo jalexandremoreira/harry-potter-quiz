@@ -397,6 +397,58 @@ const questions = [
       },
     ],
   },
+  {
+    id: "m0016",
+    question: "What is Hagrid’s dog called?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Snoopy.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Norman.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Claw.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Fang.",
+      },
+    ],
+  },
+  {
+    id: "m0017",
+    question: "What is Harry Potter’s dream job?",
+    answers: [
+      {
+        isCorrect: false,
+        id: "a00a",
+        answer: "Firefighter.",
+      },
+      {
+        isCorrect: false,
+        id: "a00b",
+        answer: "Dementor hunter.",
+      },
+      {
+        isCorrect: false,
+        id: "a00c",
+        answer: "Architect.",
+      },
+      {
+        isCorrect: true,
+        id: "a00d",
+        answer: "Auror.",
+      },
+    ],
+  },
 ];
 
 export const getMiddleQuestions = () => {

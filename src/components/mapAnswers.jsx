@@ -7,7 +7,7 @@ class MapAnswers extends Component {
       <React.Fragment>
         {question.answers.map((answer, index) => (
           <span id="answers-span" key={index}>
-            <i className="fas fa-bolt" style={{ marginRight: "-10px" }}></i>
+            {/* <i className="fas fa-bolt" style={{ marginRight: "-10px" }}></i> */}
             <div
               className={`button ${!selectedId ? "default" : ""} ${
                 answer.id === selectedId && answer.isCorrect ? "green" : ""

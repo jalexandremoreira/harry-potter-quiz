@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
 
 import MapAnswers from "./mapAnswers";
+import LoadingBar from "./loadingBar";
+import QuizBottomButtons from "./quizBottomButtons";
 // import NextQuestionButton from "./nextQuestionButton";
 
 class IndividualQuestions extends Component {
   state = {
     selectedId: undefined,
-    // showResults: false,
   };
 
   handleClick = (answer, id) => {
@@ -25,11 +24,6 @@ class IndividualQuestions extends Component {
       }
     }, 1500);
   };
-
-  // handleNextQuestion = () => {
-  //   this.props.handleNextQuestion();
-  //   this.setState({ selectedId: undefined });
-  // };
 
   handleViewResults = () => {
     this.props.onViewResults();
@@ -64,27 +58,8 @@ class IndividualQuestions extends Component {
             selectedId={selectedId}
             handleClick={this.handleClick}
           />
-          {/* <NextQuestionButton
-          index={index}
-          selectedId={selectedId}
-          handleNextQuestion={this.handleNextQuestion}
-        /> */}
-
-          <div className={`loading-bar ${selectedId ? "complete" : ""}`}>
-            {selectedId && "."}
-          </div>
-          <div id="quiz-bottom-buttons">
-            <div
-              className="button default small"
-              onClick={this.setGame}
-              // style={{ marginLeft: "60px" }}
-            >
-              Reset
-            </div>
-            <Link to="/">
-              <div className="button default small">Go back home</div>
-            </Link>
-          </div>
+          <LoadingBar selectedId={selectedId} />
+          <QuizBottomButtons setGame={this.setGame} />
         </div>
       </div>
     );
